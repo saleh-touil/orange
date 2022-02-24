@@ -3,7 +3,7 @@
 
 int main()
 {
-	char *command = "streamlit run app.py";
+	char *command = "streamlit run backup.py";
 	
 	if(system(command)){
         printf("Running command...\n");
